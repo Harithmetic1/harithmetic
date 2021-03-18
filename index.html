@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="114x114" href="Assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/img/favicon-32x32.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="Assets/img/favicon-16x16.png"> -->
+    <link rel="manifest" href="Assets/img/site.webmanifest">
+    <link rel="mask-icon" href="Assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#35363a">
+    <title>Harith's Portfolio</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mobileNav" class="mobile-nav-items mobile-nav-animate-out">
+        <!-- <div class="nav-content">
+            <div class="nav-logo">
+                <img src="Assets/img/Harith.png" alt="Harithmetic-logo">
+            </div>
+            <div class="hamburger-menu" onclick="rotate()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+            </div>
+        </div> -->
+        <div class="social-media">
+            <ul>
+                <li><a href="https://twitter.com/onigemoT_osin" target="_blank"><img src="Assets/img/Twitter.svg" alt="Twitter icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/harith-onigemo/" target="_blank"><img src="Assets/img/linkedin.png" alt="Twitter icon" class="linkedin"></a></li>
+                <li><a href="https://github.com/Harithmetic1/" target="_blank"><img src="Assets/img/Github.svg" alt="Twitter icon"></a></li>
+            </ul>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#about" onclick="rotate()">About Me.</a></li>
+            <li><a href="#my-projects" onclick="rotate()">My Projects.</a></li>
+            <li><a href="Assets/Harith_Onigemo_-_Resume.pdf" target="_blank" onclick="rotate()">Resume <i class="far fa-file"></i></a></li>
+            <li><a href="#contact" onclick="rotate()">Contact Me</a></li>
+        </ul>
+    </div>
+    <main>
+    <nav>
+        <div class="nav-content">
+            <div class="nav-logo">
+                <img src="Assets/img/Harith.png" alt="Harithmetic-logo">
+            </div>
+            <div class="nav-items">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#my-projects">My Projects</a></li>
+                    <li><a href="Assets/Harith_Onigemo_-_Resume.pdf" target="_blank">Resume <i class="far fa-file"></i></a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div id="menu" class="mobile-nav menu-animate-out">
+                <div  class="hamburger-menu" onclick="rotate()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <!-- <div class="bar3"></div> -->
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <header class="Head" data-aos="fade-right" data-aos-duration="2000">
+        <h1>Hello, <br>I'm <span class="harith">Harith.</span></h1>
+        <p data-aos="fade-up" >Nice to meet you!</p>
+    </header>
+    <hr>
+    <section id="about" class="about-me">
+        <h2>About Me.</h2>
+        <div class="pic-skills">
+            <div class="pic">
+                <img src="Assets/img/Harith-pic.jpg" alt="Harith's Picture" class="harith-pic">
+            </div>
+            <div class="skills">
+                <h4 id="skill-head">Skills</h2>
+                <div class="skill-list">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS/SASS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>TYPESCRIPT</li>
+                        <li>REACT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p>I am a Front-end Developer who is passionate about building Web applications that could help benefit the world. I am experienced with the latest cutting-edge development tools and procedures. I am also able to effectively self-manage during independent projects and collaborate as part of a productive team.</p>
+    </section>
+    <hr>
+    <section id="my-projects" class="projects">
+        <h2>My Projects.</h2>
+        <div class="project-container">
+            <div class="project-card" data-aos="fade-up">
+                    <img src="Assets/img/KHF-project.jpg" alt="KHF-project">
+                    <div class="project-name">
+                        <p>Keneth Hybrid Foundation</p>
+                    </div>
+                <div class="project-text">
+                    <div class="links">
+                        <p><a href="https://harithmetic1.github.io/khf-page/home.html" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/Harithmetic1/khf-page" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up">
+                    <img src="Assets/img/Alium-Resume-Builder.jpg" alt="KHF-project">
+                    <div class="project-name">
+                        <p>Alium Resume Builder</p>
+                    </div>
+                <div class="project-text">
+                    <div class="links">
+                        <p><a href="https://alium-resume.herokuapp.com/dashboard/" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/Harithmetic1/Alium-Resume-Builder" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up">
+                    <img src="Assets/img/30doc.jpg" alt="KHF-project">
+                    <div class="project-name">
+                        <p>30 Days of Code</p>
+                    </div>
+                <div class="project-text">
+                    <div class="links">
+                        <p><a href="https://30doc.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/Harithmetic1/frontend/tree/develop" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up">
+                    <img src="Assets/img/Github-search.jpg" alt="KHF-project">
+                    <div class="project-name">
+                        <p>Github Profile Search</p>
+                    </div>
+                <div class="project-text">
+                    <div class="links">
+                        <p><a href="https://harithmetic1.github.io/Github-search-30DOC/" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/Harithmetic1/Github-search-30DOC" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up">
+                    <img src="Assets/img/efico-website.jpg" alt="KHF-project">
+                    <div class="project-name">
+                        <p>Efico Resources</p>
+                    </div>
+                <div class="project-text">
+                    <div class="links">
+                        <p><a href="https://eficoresource.com/" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/Harithmetic1/eficositeH" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up">
+                    <img src="Assets/img/Base-calculator.jpg" alt="KHF-project">
+                    <div class="project-name">
+                        <p>Base Calculator</p>
+                    </div>
+                <div class="project-text">
+                    <div class="links">
+                        <p><a href="https://harithmetic1.github.io/Base-Calculator/" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://github.com/Harithmetic1/Base-Calculator" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="contact" class="contact-me">
+        <h2>Contact Me.</h2>
+        <p>Hi, if you are interested in working with me or contacting me, you can shoot me an email or an inbox on any of my social media accounts. </p>
+        <div class="contact-links">
+            <div class="email">
+                <a href="mailto:onigemotosin@gmail.com">Send an Email</a>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://twitter.com/onigemoT_osin" target="_blank"><img src="Assets/img/Twitter.svg" alt="Twitter icon"></a></li>
+                    <li><a href="https://www.linkedin.com/in/harith-onigemo/" target="_blank"><img src="Assets/img/linkedin.png" alt="Twitter icon" class="linkedin"></a></li>
+                    <li><a href="https://github.com/Harithmetic1/" target="_blank"><img src="Assets/img/Github.svg" alt="Twitter icon"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-contents">
+           <p>&copy;<span id="year"></span> HARITH ONIGEMO</p> 
+        </div>
+    </footer>
+</main>
+</body>
+<script src="https://kit.fontawesome.com/dc7f1f050e.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="Assets/app.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
