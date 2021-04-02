@@ -136,15 +136,17 @@ header{
     font-size: 6vw;
     color: white;
 }
-header .harith{
+header .harith a{
     color: #FF6448;
+    text-decoration: none;
 }
 header p{
     font-size: 5vw;
     margin: 0px;
     /* text-align: center; */
 }
-header .harith:hover{
+header .harith a:hover{
+    cursor: url('img/right-click.png'), auto;
     animation-name: background-change;
     animation-duration: 1s;
     animation-direction: alternate;
@@ -308,8 +310,18 @@ header .harith:hover{
 footer p{
     color: white;
 }
-
+.cursor{
+    display: none;
+    position: absolute;
+}
 @media (min-width: 1200px){
+    *{
+        scroll-behavior: smooth;
+        /* cursor: url('img/cursor.png'), auto; */
+    }
+    a:hover{
+        cursor: url('img/right-click-white.png'), auto;
+    }
     .project-container{
         grid-template-columns: auto auto auto;
     }
